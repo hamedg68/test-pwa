@@ -21,7 +21,7 @@ git subtree push --prefix dist origin gh-pages -->
     </div>
     <img src="./assets/logo.png" width="120" />
     <h1>test offline and reload propmt</h1>
-    <h1>test again and again</h1>
+    <h1>test again and again and again!!!</h1>
 
     <install-banner></install-banner>
     <reloadPWA></reloadPWA>
