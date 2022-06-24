@@ -8,6 +8,7 @@ declare module '@vue/runtime-core' {
     AModal: typeof import('ant-design-vue/es')['Modal']
     InstallBanner: typeof import('./src/components/InstallBanner.vue')['default']
     ReloadPWA: typeof import('./src/components/ReloadPWA.vue')['default']
+    Test: typeof import('./src/components/test.vue')['default']
   }
 }
 

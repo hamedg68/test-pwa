@@ -61,9 +61,17 @@ watch([offlineReady, needRefresh], () => {
   if (offlineReady.value || needRefresh.value) visible.value = true;
   else if (!offlineReady.value && !needRefresh.value) visible.value = false;
 });
+
+defineExpose({
+  offlineReady,
+  needRefresh,
+});
 </script>
 
 <template>
+  <div>
+    offlineReady : {{ offlineReady }} **** needRefresh : {{ needRefresh }}
+  </div>
   <a-modal
     v-model:visible="visible"
     :title="modalTitle"
@@ -74,7 +82,6 @@ watch([offlineReady, needRefresh], () => {
   >
     <h4>{{ modalContent }}</h4>
   </a-modal>
- 
 </template>
 
 <style></style>
