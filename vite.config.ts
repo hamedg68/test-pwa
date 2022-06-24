@@ -6,7 +6,7 @@ import { VitePWA } from "vite-plugin-pwa";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base : "/my-sobhan/",
+  base : "/test-pwa/",
   plugins: [
     vue(),
     VitePWA({
@@ -19,7 +19,7 @@ export default defineConfig({
         name: "بازار بورس طلای سبحان",
         short_name: "بازار بورس آنلاین طلا",
         theme_color: "#dcaa4b",
-        start_url: "/my-sobhan/",
+        start_url: "/test-pwa/",
         display: "standalone",
         background_color: "#c87443",
         icons: [
