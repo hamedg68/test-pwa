@@ -6,7 +6,7 @@ import { VitePWA } from "vite-plugin-pwa";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base : "/test-pwa/",
+  base: "/test-pwa/",
   plugins: [
     vue(),
     VitePWA({
@@ -18,10 +18,10 @@ export default defineConfig({
       manifest: {
         name: "بازار بورس طلای سبحان",
         short_name: "بازار بورس آنلاین طلا",
-        theme_color: "#dcaa4b",
+        theme_color: "#ffffff",
         start_url: "/test-pwa/",
         display: "standalone",
-        background_color: "#c87443",
+        background_color: "#2b2b45",
         icons: [
           {
             src: "android-chrome-192x192.png",
